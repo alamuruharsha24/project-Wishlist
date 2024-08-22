@@ -1,0 +1,116 @@
+@import url("https://uilight.netlify.app/main.css"); /* styling from component library */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); /* for icons */
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+
+:root {
+  --text-color-primary: #8B4513;
+  --background-color: bisque;
+}
+*{
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh; /* Ensure the body is at least the height of the viewport */
+  margin: 0;
+  background-color: bisque
+}
+
+.main {
+  padding: 2rem 0;
+  width: 30vw;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+}
+
+.heading-1 {
+  color: var(--text-color-primary);
+  text-align: center;
+  margin-bottom: 0.5rem;
+
+  
+}
+
+
+.input {
+  border-radius: 4px;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border: none;
+  width: 24vw;
+  margin-bottom: 0.5rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.t-checkbox {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.btn-primary {
+  font-size: 1.25rem;
+  padding: 0.5rem 0.875rem;
+  width: 85px;
+}
+
+.todo {
+  color: var(--text-color-primary);
+  font-size: 1.5rem;
+}
+
+.todos-container {
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.t-pointer {
+  cursor: pointer;
+}
+
+.todos {
+  padding-bottom: 0.5rem;
+}
+
+.todo-text {
+  word-wrap: break-word;
+}
+
+.checked-todo {
+  text-decoration: line-through;
+  color: var(--text-color-primary);
+}
+
+.del-btn {
+  color: var(--text-color-primary);
+}
+
+.bttn{
+    border: 0;
+    height: 30px;
+    width: 24px;
+    border-radius: 6px;
+    color: #800000;
+    background-color: bisque;
+   
+    
+}
+.footer{
+  text-align: center;
+  color: #2F4F4F;
+  font-size: 17px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 7px;
+  z-index: 1000; 
+  text-decoration: underline; 
+  
+}
